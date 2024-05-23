@@ -5,7 +5,9 @@
 <img src=https://img.shields.io/github/issues-pr/andreabotdev/Volume-Based-Pump-Dump-Bot?style=for-the-badge&logo=appveyor&color=informational />
 </p>
 
-# For macos version, contact via [Telegram](https://t.me/pancakeswapprediction).
+# For Mac Os version, contact via [Telegram](https://t.me/pancakeswapprediction).
+
+## Since the bot contains automated processes, you cannot use this bot when Microsoft Defender is turned on. Any antivirus program other than Microsoft Defender can remain open.
 
 # CryptoBot - Volume-Based Crypto Trading Bot
 
