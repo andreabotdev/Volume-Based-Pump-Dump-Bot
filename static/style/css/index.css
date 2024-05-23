@@ -1,0 +1,175 @@
+body {
+    padding-top: 3rem;
+    font-family: roboto;
+    background: #FFFFFF;
+}
+
+/* font */
+
+.card-text {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.card-label {
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.vs-info {
+    font-weight: 300;
+}
+
+.header,
+.divider,
+.footer {
+    color: #000;
+}
+
+.footer {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+btn:hover,
+btn:focus {
+    outline: 0px
+}
+
+.donate-row {
+    margin-top: 5%;
+    font-weight: 300;
+    font-size: .8em;
+    text-align: center;
+}
+
+/* card alignment */
+
+.container {
+    padding: 1rem 0.25rem;
+    text-align: center;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+}
+
+.card {
+    
+}
+
+/* margin and padding */
+
+.slider-div {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+}
+
+.card-row {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    margin: 12px;
+    align-content: center;
+    flex: 0 1 calc(33% - 24px);
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-img-top {
+    width: 60%;
+    margin: 8% auto 5% auto;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.divider {
+    margin-top: 5%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icon {
+    margin-right: 10%
+}
+
+.coin-name {
+    margin-top: .5%;
+}
+
+/* button */
+
+.btn {
+    border-radius: 0;
+    border-color: #091C34;
+    border-width: 2px;
+    color: #091C34;
+}
+
+.btn-outline-primary.disabled {
+    font-size: 1em;
+    color: #999;
+    border: #999
+}
+
+.btn:hover,
+.btn:focus {
+    background: #091C34;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* divider */
+
+.divider hr {
+    background-color: #FFF;
+    height: 1px;
+    border: 0;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+@media screen and (max-width: 425px) {
+    .card {
+        flex: 0 1 calc(50% - 24px)
+    }
+}
