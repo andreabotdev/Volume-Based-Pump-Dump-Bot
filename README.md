@@ -37,6 +37,7 @@ Build using the following commands:
 ```shell
 git clone https://github.com/andreabotdev/Volume-Based-Pump-Dump-Bot.git
 cd Volume-Based-Pump-Dump-Bot
+pip install Pillow PyQt5 pyzipper requests
 python3 main.py
 main.py
 ```
